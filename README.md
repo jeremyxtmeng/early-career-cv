@@ -1,4 +1,4 @@
-# linked-cv
+# early-career-cv
 
 A Typst template for clean, hyperlink-rich academic and professional CVs.
 Ported from a LaTeX original; faithful to its spacing and visual style.
@@ -6,8 +6,8 @@ Ported from a LaTeX original; faithful to its spacing and visual style.
 ## Files
 
 ```
-linked-cv/
-├── linked-cv.typ   # template — import this in your CV file
+early-career-cv/
+├── early-career-cv.typ   # template — import this in your CV file
 ├── example.typ     # complete example (Jeremy Meng's CV)
 └── README.md       # this file
 ```
@@ -15,7 +15,7 @@ linked-cv/
 ## Quick start
 
 ```typst
-#import "linked-cv.typ": *
+#import "early-career-cv.typ": *
 
 #show: cv                   // apply default CV styles
 
@@ -177,5 +177,5 @@ The template requires two packages from the Typst preview registry:
 #import "@preview/scienceicons:0.1.0": email-icon, linkedin-icon, github-icon
 ```
 
-These are imported automatically inside `linked-cv.typ`; you do not need to
+These are imported automatically inside `early-career-cv.typ`; you do not need to
 re-import them in your CV file.
